@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "api.yoga2-serverless",
+  "alias": "api.yoga2-serverless.now.sh",
+  "env": {
+    "MONGODB_URI": "mongodb-uri"
+  },
+  "builds": [
+    {
+      "src": "dist/src/index.js",
+      "use": "@now/node-server",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "routes": [{ "src": "/.*", "dest": "dist/src/index.js" }]
+}

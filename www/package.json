@@ -1,0 +1,31 @@
+{
+  "name": "www",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "apollo-boost": "^0.3.1",
+    "graphql": "^14.3.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
+    "react-apollo-hooks": "^0.4.5",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/zeit__next-typescript": "^0.1.2"
+  }
+}
